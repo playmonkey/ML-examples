@@ -1,5 +1,7 @@
 # Yeah World!
 A simple set of scripts to explore gesture recognition with TensorFlow and transfer learning on the Raspberry Pi 4, Pi 3 and Pi Zero.
+***** APPSB 19/02/2020 - Modified scripts to work with Python 3.5
+
 
 ## Getting started
 
