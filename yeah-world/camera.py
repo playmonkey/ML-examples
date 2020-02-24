@@ -60,5 +60,6 @@ class Camera(object):
             awb_b = max(0., uniform(-.5, .5) + self.base_awb[1])
             self.camera.awb_gains = (awb_r, awb_b)
 
-        frame = next(self.stream).array
+        #frame = self.stream.next().array
+        frame = next(self.stream).array # modified so it works on python 3+
         return frame
